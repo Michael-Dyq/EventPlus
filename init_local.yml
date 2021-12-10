@@ -372,7 +372,7 @@ dependencies:
     - oauthlib==3.1.0
     - overrides==3.0.0
     - parsimonious==0.8.1
-    - predpatt==1.0
+    - https://github.com/hltcoe/PredPatt/tarball/master#egg=predpatt
     - preshed==3.0.2
     - protobuf==3.12.2
     - pyarrow==2.0.0
