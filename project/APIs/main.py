@@ -6,7 +6,7 @@ import spacy
 import json
 sys.path.append("..")
 sys.path.append("../component/BioMedEventEx") # need to import config.py
-from component.BioMedEventEx.predict import BioMedEventExAPI
+#from component.BioMedEventEx.predict import BioMedEventExAPI
 from component.TempRel.code.joint_model import TempRelAPI
 sys.path.append("../component/BETTER/joint") # need to import model in absolute path
 from component.BETTER.joint.event_pipeline_demo import BETTER_API
@@ -29,7 +29,7 @@ class EventAPIs:
         self.negation_detection = negation_detection
         self.rest_server_url = 'http://localhost'
         self.rest_server_port = 17000
-        self.bioMedEventExAPI = BioMedEventExAPI('../component/BioMedEventEx')
+        #self.bioMedEventExAPI = BioMedEventExAPI('../component/BioMedEventEx')
         self.betterAPI = BETTER_API('../component/BETTER/joint')
         self.temprelAPI = TempRelAPI(base_dir = '../component/TempRel/code')
         # self.durationAPI = DurationAPI(base_dir = '../component/Duration',
