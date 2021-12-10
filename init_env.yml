@@ -351,7 +351,7 @@ dependencies:
     - editdistance==0.5.3
     - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz#en_core_web_sm
     - en-core-web-sm-mirror==2.2.5
-    - en-ner-jnlpba-md==0.2.4
+    - https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_ner_jnlpba_md-0.2.4.tar.gz
     - flaky==3.6.1
     - flask-cors==3.0.8
     - frozendict==1.2
