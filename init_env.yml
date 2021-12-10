@@ -349,7 +349,7 @@ dependencies:
     - dill==0.3.3
     - django==3.0.8
     - editdistance==0.5.3
-    - en-core-web-sm==2.2.5
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz#en_core_web_sm
     - en-core-web-sm-mirror==2.2.5
     - en-ner-jnlpba-md==0.2.4
     - flaky==3.6.1
